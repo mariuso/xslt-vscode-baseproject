@@ -17,12 +17,12 @@
 			]
 		}
 	],
-  "inputs": [
-    {
-      "id": "xmlfile",
-      "type": "promptString",
-      "description": "Name of XML file to process",
-      "default": "original.xml"
-    }
-  ]
+	"inputs": [
+		{
+			"id": "xmlfile",
+			"type": "promptString",
+			"description": "Name of XML file to process",
+			"default": "original.xml"
+		}
+	]
 }

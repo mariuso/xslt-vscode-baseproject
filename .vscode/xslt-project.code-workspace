@@ -7,7 +7,8 @@
 	"settings": {
 		"editor.autoIndent": "full",
 		"editor.insertSpaces": true,
-		"editor.tabSize": 4,
+		"editor.tabSize": 2,
+		"editor.detectIndentation": false,
 		"[markdown]": {
 			"editor.formatOnSave": true,
 			"editor.wordWrap": "on",
