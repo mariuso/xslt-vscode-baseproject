@@ -10,3 +10,19 @@ This is a base project for XSLT transformations in Visual Studio Code.
 
 ## Installation of XSLT processor
 [Installation Guide](https://deltaxml.github.io/vscode-xslt-xpath/run-xslt.html)
+
+## XSLT processing
+### .vscode/tasks.json
+This file contains the settings for the 
+
+### Running XSLT processor
+* Open XSLT file you want use
+* Open tasks
+  * (cmd + P / ctrl + P) - To open command palette
+  * Select: "Tasks - Run task"
+* Run task: "xslt: Saxon Transform (New)"
+
+You will be prompted to input the filename you want to run. Default set to **"testfiles/original.xml"**
+
+### Default XML filename
+You can customize the default filename and location by changing the inputs.default in **.vscode/tasks.json**

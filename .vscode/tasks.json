@@ -6,7 +6,7 @@
 			"label": "xslt: Saxon Transform (New)",
 			"saxonJar": "${config:XSLT.tasks.saxonJar}",
 			"xsltFile": "${file}",
-			"xmlSource": "testfiles/${input:xmlfile}",
+			"xmlSource": "${input:xmlfile}",
 			"resultPath": "${workspaceFolder}/output/transformed-${input:xmlfile}",
 			"group": {
 				"kind": "build",
@@ -22,7 +22,7 @@
 			"id": "xmlfile",
 			"type": "promptString",
 			"description": "Name of XML file to process",
-			"default": "original.xml"
+			"default": "testfiles/original.xml"
 		}
 	]
 }
