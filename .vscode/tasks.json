@@ -21,9 +21,8 @@
     {
       "id": "xmlfile",
       "type": "promptString",
-			"description": "Name of XML file to process",
-			"default": "original.xml"
-      // type specific configuration attributes
+      "description": "Name of XML file to process",
+      "default": "original.xml"
     }
   ]
 }
