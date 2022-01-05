@@ -22,7 +22,7 @@
       "id": "xmlfile",
       "type": "promptString",
 			"description": "Name of XML file to process",
-			"default": "724618_1343_digitaloutput.xml"
+			"default": "original.xml"
       // type specific configuration attributes
     }
   ]

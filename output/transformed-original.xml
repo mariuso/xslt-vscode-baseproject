@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootNode>
+   <node>
+      <child>Child 1</child>
+      <child>Child 2</child>
+      <child>Child 3</child>
+      <child>Child 4</child>
+   </node>
+   <content>
+      <item someattribute="value">Some data</item>
+      <value>100.00</value>
+   </content>
+</rootNode>

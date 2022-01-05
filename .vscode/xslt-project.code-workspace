@@ -4,5 +4,15 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.autoIndent": "full",
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		"[markdown]": {
+			"editor.formatOnSave": true,
+			"editor.wordWrap": "on",
+			"editor.renderWhitespace": "all",
+			"editor.acceptSuggestionOnEnter": "off"
+		}
+	}
 }
