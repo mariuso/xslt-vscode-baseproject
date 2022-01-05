@@ -6,8 +6,8 @@
 			"label": "xslt: Saxon Transform (New)",
 			"saxonJar": "${config:XSLT.tasks.saxonJar}",
 			"xsltFile": "${file}",
-			"xmlSource": "xslt-in/test-vdc.xml",
-			"resultPath": "${workspaceFolder}/xslt-out/output-Mercell.xml",
+			"xmlSource": "testfiles/${input:xmlfile}",
+			"resultPath": "${workspaceFolder}/output/transformed-${input:xmlfile}",
 			"group": {
 				"kind": "build",
 				"isDefault": true
@@ -16,5 +16,14 @@
 				"$saxon-xslt"
 			]
 		}
-	]
+	],
+  "inputs": [
+    {
+      "id": "xmlfile",
+      "type": "promptString",
+			"description": "Name of XML file to process",
+			"default": "724618_1343_digitaloutput.xml"
+      // type specific configuration attributes
+    }
+  ]
 }
