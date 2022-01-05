@@ -16,6 +16,8 @@ This is a base project for XSLT transformations in Visual Studio Code.
 This file contains the settings for the 
 
 ### Running XSLT processor
+(Shortcut cmd + shift + b / ctrl + shift + b)
+
 * Open XSLT file you want use
 * Open tasks
   * (cmd + P / ctrl + P) - To open command palette
